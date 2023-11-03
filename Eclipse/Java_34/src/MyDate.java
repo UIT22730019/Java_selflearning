@@ -66,11 +66,13 @@ public class MyDate {
 			return true;
 		if (obj == null)
 			return false;
-		if (getClass() != obj.getClass())
+		if (this.getClass() != obj.getClass())
 			return false;
 		MyDate other = (MyDate) obj;
-		return day == other.day && month == other.month && year == other.year;
+		return this.day == other.day && this.month == other.month && this.year == other.year;
 	}
+	
+	
 	
 
 }
