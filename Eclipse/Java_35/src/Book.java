@@ -54,6 +54,15 @@ public class Book {
 		this.author = author;
 	}
 	
+	public void printBookName () {
+		System.out.println(this.nameBook);
+	}
 	
+	boolean printTestSameYear(Book otherBook) {
+		return this.publishYear == otherBook.publishYear;
+	}
+	double priceAfterDiscount(double x) {
+		return this.price*(1-x/100);
+	}
 
 }

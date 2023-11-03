@@ -12,7 +12,25 @@ public class Test {
 		Book b1 = new Book("Hai phong", 500, 2023, author1);
 		Book b2 = new Book("Di Linh", 600, 2023, author2);
 		Book b3 = new Book("Hai phong", 300, 2004, author3);
+		
+		//Câu 1
+		b1.printBookName();
+		b2.printBookName();
+		b3.printBookName();
+		
+		//Câu 2
+		System.out.println("So sach NXB sach1 va sach2: " + b1.printTestSameYear(b2));
+		System.out.println("So sach NXB sach1 va sach3: " + b1.printTestSameYear(b3));
+		
+		//cau3
+		
+		System.out.println("Sach 1 giam 10%: " + b1.priceAfterDiscount(10));
+		System.out.println("Sach 2 giam 50%: " + b2.priceAfterDiscount(50));
+		System.out.println("Sach 3 giam 80%: " + b3.priceAfterDiscount(80));
+		
 
 	}
+	
+	
 
 }
