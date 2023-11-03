@@ -66,6 +66,16 @@ public class BoPhim {
 		this.ngayChieu = ngayChieu;
 	}
 	
+	public boolean kiemtraGiaPhim(BoPhim phimKhac) {
+		return this.giaVe < phimKhac.giaVe;
+	}
+	public String inHangSanXuatPhim () {
+		return this.hangSanXuat.getTenHangSanXuat();
+	}
+	public double giaVeKhuyenMai (double x) {
+		return this.giaVe*(1-x/100);
+	}
+	
 	
 }
 	

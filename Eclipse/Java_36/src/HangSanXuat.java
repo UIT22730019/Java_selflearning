@@ -22,7 +22,7 @@ public class HangSanXuat {
 	public void setQuocGia(String quocGia) {
 		this.quocGia = quocGia;
 	}
-	
+
 	
 
 }
